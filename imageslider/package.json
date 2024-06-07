@@ -1,0 +1,17 @@
+{
+    "name": "image-slider",
+    "version": "1.0.0",
+
+    "scripts": {
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html",
+        "serve": "parcel serve src/index.html",
+        "dev": "npx parcel src/index.html"
+    },
+    "keywords": [],
+    "author": "Anam",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.12.0"
+    }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+     
+      <ul class="links">
+        <li><a href="#"><b>Home</b></a></li>
+        <li><a href="#"><b>About us</b></a></li>
+        <li><a href="#"><b>My Work</b></a></li>
+        <li><a href="#"><b>Book yours!</b></a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/img-1.jpg" height="60%" ></div>
+          <div class="swiper-slide"><img src="img/img-2.jpg" height="60%"></div>
+          <div class="swiper-slide"><img src="img/img-3.jpg"height="60%" ></div>
+          <div class="swiper-slide"><img src="img/img-4.jpg"height="60%" ></div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+
+  </script>
+
+
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+
+      },
+      loop: true,
+
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+
+    });
+  </script>
+</body>
+
+</html>
